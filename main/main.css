@@ -1,0 +1,86 @@
+.menu__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+.menu__texts {
+  color: #FFFFFF;
+}
+
+.menu__text1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.menu__text2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.main__text-main {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 52px;
+  line-height: 61px;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.86);
+
+  margin-bottom: 35px;
+}
+
+.main__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 31px;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.75);
+
+  margin-bottom: 90px;
+}
+
+.main__flex-button {
+  display: flex;
+  justify-content: center;
+}
+
+.main__span {
+  display: block;
+}
+
+.main__button {
+  width: 200px;
+  height: 48px;
+
+  background: #15A9CB;
+  box-shadow: 0 4px 25px rgba(21, 169, 203, 0.3);
+  border-radius: 50px;
+  border-color: #15A9CB;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.menu {
+  background-image: url("../main/img/background.png");
+  position: relative;
+}
