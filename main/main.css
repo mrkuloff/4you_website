@@ -3,6 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 120px;
+  align-items: center;
 }
 
 .menu__texts {
@@ -81,8 +82,46 @@
 }
 
 .menu {
+  padding-top: 40px;
   padding-bottom: 120px;
   background-image: url("../main/img/background.png");
   position: relative;
 }
 
+@media (max-width: 1024px) {
+  .menu__img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .menu__text1 {
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+  .menu__text2 {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .menu {
+    padding-top: 26px;
+    padding-bottom: 70px;
+  }
+
+  .menu__menu {
+    margin-bottom: 70px;
+  }
+
+  .main__text-main {
+    margin-bottom: 27.5px;
+    font-size: 40px;
+    line-height: 47px;
+  }
+
+  .main__text {
+    margin-bottom: 60.43px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+}

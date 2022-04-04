@@ -102,3 +102,52 @@
   text-decoration: underline;
   color: #15A9CB;
 }
+
+@media (max-width: 1024px) {
+  .contact__main-text {
+    font-size: 32px;
+    line-height: 38px;
+
+    margin-bottom: 16px;
+  }
+
+  .contact__text {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .contact__input {
+    width: 377px;
+    height: 39px;
+  }
+
+  .contact__input::placeholder {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .contact__label {
+    margin-bottom: 20px;
+  }
+
+  .contact__submit {
+    width: 218px;
+    height: 48px;
+
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .contact__form {
+    margin-bottom: 30px;
+  }
+
+  .contact__sogl {
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .contact {
+    padding-bottom: 56px;
+  }
+}
