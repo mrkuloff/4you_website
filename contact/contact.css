@@ -1,0 +1,30 @@
+.contact {
+  background-image: url("../contact/img/Background.png");
+}
+
+.contact__main-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  margin-bottom: 17px;
+}
+
+.contact__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.8);
+
+  margin-bottom: 50px;
+}
+

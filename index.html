@@ -41,55 +41,101 @@
       </div>
     </section>
     <section class="advantages">
-      <h2 class="advantages__main-text">
-        Уникальный заголовок для преимущества компании
-      </h2>
+      <div class="container">
+        <h2 class="advantages__main-text">
+          Уникальный заголовок для преимущества компании
+        </h2>
 
-      <div class="advantages__about">
-        <img class="advantages__tire" alt="-" src="">
-        <p>О нас</p>
-        <img class="advantages__tire" alt="-" src="">
-      </div>
+        <div class="advantages__about">
+          <img class="advantages__tire" alt="-" src="./advantages/img/tire.svg">
+          <p class="advantages__about-text">О нас</p>
+          <img class="advantages__tire" alt="-" src="./advantages/img/tire.svg">
+        </div>
 
-      <article class="advantages__text">
-        <p class="menu__span">
-          Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
-        </p>
-        <p class="menu__span">
-          несколько абзацев более менее осмысленного текста рыбы на русском языке, а
-        </p>
-        <p class="menu__span">
-          начинающему оратору отточить.
-        </p>
-      </article>
+        <article class="advantages__text">
+          <p class="menu__span">
+            Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+          </p>
+          <p class="menu__span">
+            несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+          </p>
+          <p class="menu__span">
+            начинающему оратору отточить.
+          </p>
+        </article>
 
-      <div class="advantages__list">
-        <div class="advantages__item">
-          <img class="advantages__1" src="" alt="1">
-          <p>
-            Первое целевое преимущество
-          </p>
-        </div>
-        <div class="advantages__item">
-          <img class="advantages__2" src="" alt="2">
-          <p>
-            Второе целевое преимущество
-          </p>
-        </div>
-        <div class="advantages__item">
-          <img class="advantages__3" src="" alt="3">
-          <p>
-            Третье целевое преимущество
-          </p>
-        </div>
-        <div class="advantages__item">
-          <img class="advantages__4" src="" alt="4">
-          <p>
-            Четвертое целевое преимущество
-          </p>
+        <div class="advantages__list">
+          <div class="advantages__item">
+            <div class="advantages__circle">
+              <p class="advantages__text-circle">1</p>
+              <img alt="circle" src="advantages/img/Ellipse.png">
+            </div>
+            <p class="advantages__list-text">
+              Первое целевое преимущество
+            </p>
+          </div>
+          <div class="advantages__item">
+            <div class="advantages__circle">
+              <p class="advantages__text-circle">2</p>
+              <img alt="circle" src="advantages/img/Ellipse.png">
+            </div>
+            <p class="advantages__list-text">
+              Второе целевое преимущество
+            </p>
+          </div>
+          <div class="advantages__item">
+            <div class="advantages__circle">
+              <p class="advantages__text-circle">3</p>
+              <img alt="circle" src="advantages/img/Ellipse.png">
+            </div>
+            <p class="advantages__list-text">
+              Третье целевое преимущество
+            </p>
+          </div>
+          <div class="advantages__item">
+            <div class="advantages__circle">
+              <p class="advantages__text-circle">4</p>
+              <img alt="circle" src="advantages/img/Ellipse.png">
+            </div>
+            <p class="advantages__list-text">
+              Четвертое целевое преимущество
+            </p>
+          </div>
         </div>
       </div>
     </section>
+
+    <section class="contact">
+      <div class="container">
+        <p class="contact__main-text">
+          Остались вопросы?
+        </p>
+        <p class="contact__text">
+          Оставьте номер телефона, и мы перезвоним вам
+        </p>
+
+        <form class="contact__form" action="" method="get">
+          <label class="contact__label-name">
+            <input class="contact__input-name" type="text" placeholder="Ваше имя">
+          </label>
+
+          <label class="contact__label-tel">
+            <input class="contact__input-tel" type="tel" placeholder="Телефон">
+          </label>
+
+          <label class="contact__label-email">
+            <input class="contact__input-email" type="email" placeholder="E-mail">
+          </label>
+
+          <button type="submit">позвоните мне</button>
+        </form>
+
+        <p class="contact__sogl">
+          Я даю своё <span class="contact__span">согласие</span> на обработку моих персональных данных.
+        </p>
+      </div>
+    </section>
+
   </main>
 
   <footer>

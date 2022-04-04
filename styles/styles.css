@@ -1,3 +1,5 @@
 @import "normalize.css";
 @import "global_styles.css";
 @import "../main/main.css";
+@import "../advantages/advantages.css";
+@import "../contact/contact.css";

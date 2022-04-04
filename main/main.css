@@ -81,6 +81,8 @@
 }
 
 .menu {
+  padding-bottom: 120px;
   background-image: url("../main/img/background.png");
   position: relative;
 }
+
