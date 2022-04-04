@@ -28,3 +28,77 @@
   margin-bottom: 50px;
 }
 
+.contact__label {
+  display: block;
+  margin-bottom: 21px;
+}
+
+.contact__label:last-of-type {
+  margin-bottom: 50px;
+}
+
+.contact__input {
+  width: 423px;
+  height: 44px;
+  left: 588px;
+  top: 1533px;
+
+  border: 1.5px solid #FFFFFF;
+  border-radius: 50px;
+  background-color: transparent;
+}
+
+.contact__input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  text-align: left;
+
+  color: rgba(255, 255, 255, 0.5);
+
+  padding-left: 25px;
+}
+
+.contact__submit {
+  width: 218px;
+  height: 48px;
+
+  background: #15A9CB;
+  box-shadow: 0 4px 25px rgba(21, 169, 203, 0.3);
+  border-radius: 50px;
+  border-color: rgba(21, 169, 203, 0.3);
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  margin-bottom: 50px;
+}
+
+.contact__form {
+  text-align: center;
+}
+
+.contact__sogl {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.contact__sogl > .contact__span {
+  text-decoration: underline;
+  color: #15A9CB;
+}

@@ -1,0 +1,62 @@
+.footer {
+  padding: 45px 0;
+  background: #2F324B;
+}
+
+.footer__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__texts {
+  color: #FFFFFF;
+}
+
+.footer__text1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.footer__text2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.footer__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+}
+
+.footer__left-block {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+}
+
+.footer__xxxcompany {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.footer__span {
+  display: block;
+}

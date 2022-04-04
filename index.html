@@ -115,19 +115,19 @@
         </p>
 
         <form class="contact__form" action="" method="get">
-          <label class="contact__label-name">
-            <input class="contact__input-name" type="text" placeholder="Ваше имя">
+          <label class="contact__label contact__label-name">
+            <input class="contact__input contact__input-name" type="text" placeholder="Ваше имя">
           </label>
 
-          <label class="contact__label-tel">
-            <input class="contact__input-tel" type="tel" placeholder="Телефон">
+          <label class="contact__label contact__label-tel">
+            <input class="contact__input contact__input-tel" type="tel" placeholder="Телефон">
           </label>
 
-          <label class="contact__label-email">
-            <input class="contact__input-email" type="email" placeholder="E-mail">
+          <label class="contact__label contact__label-email">
+            <input class="contact__input contact__input-email" type="email" placeholder="E-mail">
           </label>
 
-          <button type="submit">позвоните мне</button>
+          <button class="contact__submit" type="submit">позвоните мне</button>
         </form>
 
         <p class="contact__sogl">
@@ -135,11 +135,33 @@
         </p>
       </div>
     </section>
-
   </main>
 
-  <footer>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__menu">
+        <div class="footer__left-block">
+          <img class="footer__img" src="./main/img/logo.svg" alt="logo">
+          <div class="footer__xxxcompany">
+            <p class="footer__span">© 2022 XXXcompany.</p>
+            <p class="footer__span">Все права защищены.</p>
+          </div>
+        </div>
 
+        <p class="footer__text">
+          Сделано Ивановым Иваном
+        </p>
+
+        <article class="footer__texts">
+          <p class="footer__text1">
+            +7 (962) 556 - 1234
+          </p>
+          <p class="footer__text2">
+            Перезвоните мне
+          </p>
+        </article>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
