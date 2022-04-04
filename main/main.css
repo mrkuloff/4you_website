@@ -125,3 +125,55 @@
     line-height: 25px;
   }
 }
+
+@media (max-width: 320px) {
+  .menu__img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .menu__text1 {
+    display: none;
+  }
+
+  .menu__text2 {
+    display: none;
+  }
+
+  .menu__texts {
+    background-image: url("../main/img/Phone.svg");
+    background-size: 24px 24px;
+    height: 24px;
+    width: 24px;
+
+  }
+
+  .menu {
+    padding-top: 19px;
+    padding-bottom: 65px;
+  }
+
+  .menu__menu {
+    margin-bottom: 72px;
+  }
+
+  .main__text-main {
+    margin-bottom: 23px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .main__text {
+    margin-bottom: 54px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .main__button {
+    width: 160px;
+    height: 38px;
+
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
