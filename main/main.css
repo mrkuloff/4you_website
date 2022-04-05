@@ -10,6 +10,11 @@
   color: #FFFFFF;
 }
 
+.menu__img {
+  width: 68px;
+  height: 68px;
+}
+
 .menu__text1 {
   font-style: normal;
   font-weight: 400;
@@ -29,6 +34,8 @@
 }
 
 .main__text-main {
+  letter-spacing: 5px;
+
   font-style: normal;
   font-weight: 900;
   font-size: 52px;
@@ -85,6 +92,7 @@
   padding-top: 40px;
   padding-bottom: 120px;
   background-image: url("../main/img/background.png");
+  background-size: cover;
   position: relative;
 }
 
